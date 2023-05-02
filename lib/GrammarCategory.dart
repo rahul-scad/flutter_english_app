@@ -9,7 +9,7 @@ final List<GrammarCategory> grammarCategories = [
   GrammarCategory(
     name: 'Nouns',
     examples: [
-      'book',
+      'book -  ',
       'car',
       'house',
       'dog',
