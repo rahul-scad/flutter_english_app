@@ -11,7 +11,7 @@ class VocabularyPage extends StatefulWidget {
 
 class _VocabularyPageState extends State<VocabularyPage> {
   List<String> words = [
-    'happy',
+    '1. happy ',
     'sad',
     'angry',
     'excited',
