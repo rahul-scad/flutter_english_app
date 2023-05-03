@@ -18,9 +18,15 @@ class HomePage extends StatelessWidget {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Stack(
-              alignment: Alignment.center,
+            Row(
+              mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
+                const Padding(
+                  padding: EdgeInsets.only(right: 16.0),
+                  child: Text(
+                    'click here to see option',
+                  ),
+                ),
                 IconButton(
                   icon: const Icon(Icons.home),
                   onPressed: () {},
@@ -66,7 +72,8 @@ class HomePage extends StatelessWidget {
                 ),
               ],
             ),
-            const SizedBox(height: 20),
+            Image.asset('assets/image (2).jpg'),
+            const SizedBox(height: 40),
             const Text('Welcome to English Learning for Class 1-3'),
           ],
         ),
